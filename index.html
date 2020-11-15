@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery simple Slider</title>
+  <link rel="stylesheet" href="./css/slider.css">
+</head>
+
+<body>
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slider__item">
+        <img src="images/eberhard-grossgasteiger-DvHWP8iVYHQ-unsplash.jpg" alt="tower">
+        <span class="slider__caption">Photo by <a href="https://unsplash.com/@eberhardgross?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">eberhard grossgasteiger</a> on <a href="https://unsplash.com/t/architecture?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+      </div>
+      <div class="slider__item">
+        <img src="images/corentin-libouton-1NVXbtWueEk-unsplash.jpg" alt="buildings">
+        <span class="slider__caption">Photo by <a href="https://unsplash.com/@libouton_corentin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Corentin Libouton</a> on <a href="https://unsplash.com/t/architecture?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+      </div>
+      <div class="slider__item">
+        <img src="images/omurden-cengiz-vpybqv5VQRg-unsplash.jpg" alt="">
+        <span class="slider__caption">Photo by <a href="https://unsplash.com/@omurden?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ömürden Cengiz</a> on <a href="https://unsplash.com/t/architecture?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+      </div>
+    </div>
+    <div class="slider__switch slider__switch--prev" data-ikslider-dir="prev">
+      <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <path
+            d="M13.89 17.418c.27.272.27.71 0 .98s-.7.27-.968 0l-7.83-7.91c-.268-.27-.268-.706 0-.978l7.83-7.908c.268-.27.7-.27.97 0s.267.71 0 .98L6.75 10l7.14 7.418z" />
+          </svg></span>
+    </div>
+    <div class="slider__switch slider__switch--next" data-ikslider-dir="next">
+      <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <path
+            d="M13.25 10L6.11 2.58c-.27-.27-.27-.707 0-.98.267-.27.7-.27.968 0l7.83 7.91c.268.27.268.708 0 .978l-7.83 7.908c-.268.27-.7.27-.97 0s-.267-.707 0-.98L13.25 10z" />
+          </svg></span>
+    </div>
+  </div>
+
+  <p><a href="http://codepen.io/collection/DRRYeL/">More examples</a></p>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="./lib/jquery-1.11.1.min.js"><\/script>')
+  </script>
+
+  <script src="./src/slider.js"></script>
+</body>
+</html>
